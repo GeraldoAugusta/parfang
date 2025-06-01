@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARFANG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="brand">Parfang</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Shopcart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div class="shopcart-container">
+        <!-- List Cart -->
+        <div class="cart-items">
+            <label class="select-all">
+                <input type="checkbox" /> Select All
+            </label>
+            <div class="cart-item">
+                <input type="checkbox" />
+                <img src="images/men/diorsauvage.jpg" alt="Dior Sauvage" />
+                <div class="item-details">
+                    <h4>Dior Sauvage for Men</h4>
+                    <p>EDP</p>
+                    <p>100 ml</p>
+                    <p class="price">Rp 3.700.000</p>
+                    <div class="quantity-control">
+                    <button>-</button>
+                    <input type="text" value="1" readonly />
+                    <button>+</button>
+                    </div>
+                </div>
+                <button class="delete-btn">🗑️</button>
+            </div>
+            <div class="cart-item">
+                <input type="checkbox" />
+                <img src="images/unisex/maisonmargiela.webp" alt="Maison Margiela" />
+                <div class="item-details">
+                    <h4>Maison Margiela Jazz Club Unisex</h4>
+                    <p>EDT</p>
+                    <p>100 ml</p>
+                    <p class="price">Rp 2.000.000</p>
+                    <div class="quantity-control">
+                    <button>-</button>
+                    <input type="text" value="1" readonly />
+                    <button>+</button>
+                    </div>
+                </div>
+                <button class="delete-btn">🗑️</button>
+            </div>
+            <div class="cart-item">
+                <input type="checkbox" />
+                <img src="images/niche/Gris Charnel Extrait Extrait.jpg" alt="Gris Charnel" />
+                <div class="item-details">
+                    <h4>Gris Charnel Extrait</h4>
+                    <p>Extrait de Parfume</p>
+                    <p>100 ml</p>
+                    <p class="price">Rp 5.077.000</p>
+                    <div class="quantity-control">
+                    <button>-</button>
+                    <input type="text" value="1" readonly />
+                    <button>+</button>
+                    </div>
+                </div>
+                <button class="delete-btn">🗑️</button>
+            </div>
+
+        </div>
+
+        <!-- Kanan: Order Summary -->
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <div class="summary-item">
+                <span>Subtotal</span>
+                <span>Rp 10.777.000</span>
+            </div>
+            <div class="summary-item">
+                <span>Quantity</span>
+                <span>3 items</span>
+            </div>
+            <hr class="line">
+
+            <input type="text" placeholder="Enter Promo Code" class="promo-input" />
+            <button class="submit-btn">Submit</button>
+
+            <div class="summary-discount">
+                <span>Discount (10%)</span>
+                <span>Rp 1.077.700</span>
+            </div>
+
+            <div class="summary-item total">
+                <strong>Estimated Total</strong>
+                <strong>Rp 9.699.300</strong>
+            </div>
+            <hr class="line">
+
+            <button class="checkout-btn">Proceed to checkout</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+            <h2>Parfang</h2>
+            <p>A scent for every story. Discover your signature fragrance today.</p>
+            </div>
+            
+            <div class="footer-links">
+            <h4>Menu Option</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="shopcart.html">Shopcart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: support@parfang.com</p>
+                <p>Phone: +62 800 1111 2222</p>
+                <p>Instagram: @parfang.id</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Parfang. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
